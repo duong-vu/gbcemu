@@ -1,2 +1,2 @@
 # gbcemu
-Gameboy Color emulator
+Gameboy Color emulator in C++
