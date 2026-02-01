@@ -4,4 +4,5 @@ project(gbcemu)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(gbcemu src/main.cpp)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(gbcemu ${SOURCES})
